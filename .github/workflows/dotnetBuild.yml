@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build ./BulkyWeb.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ./Bulky.sln --no-build --verbosity normal
